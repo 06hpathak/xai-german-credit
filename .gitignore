@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyd
+*.pyo
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Distribution / Packaging
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Data files (add specific files if you want to include them)
+*.csv
+*.xlsx
+*.xls
+data/raw/
+data/processed/
+
+# Model artifacts
+*.pkl
+*.joblib
+*.h5
+*.model
+models/
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Outputs / temp
+output/
+outputs/
+tmp/
+temp/
