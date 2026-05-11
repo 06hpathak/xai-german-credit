@@ -1,13 +1,13 @@
 # 🧠 Explainable AI for Financial Decision-Making
 
-> **Self-Study Project — CSM961 | M.Tech Engineering Systems (CS) | DEI**  
+> **Self-Study Project - CSM961 | M.Tech Engineering Systems (CS) | DEI**  
 > **Harsh Pathak (2501670)** · Supervised by Dr. Prem Sewak Sudhish
 
 ---
 
 ## 📌 Overview
 
-This project explores the theory and practical implementation of **Explainable Artificial Intelligence (XAI)** in the context of financial decision-making — specifically **credit risk assessment**.
+This project explores the theory and practical implementation of **Explainable Artificial Intelligence (XAI)** in the context of financial decision-making - specifically **credit risk assessment**.
 
 As black-box ML models (like XGBoost, DNNs) increasingly power high-stakes financial decisions, they raise critical concerns around **transparency, fairness, and regulatory compliance**. This study bridges that gap by applying state-of-the-art XAI techniques to make model predictions interpretable and auditable.
 
@@ -15,7 +15,7 @@ As black-box ML models (like XGBoost, DNNs) increasingly power high-stakes finan
 
 ## 🎯 Motivation
 
-- Modern deep learning models are opaque **"black boxes"** — hard to justify, audit, or trust
+- Modern deep learning models are opaque **"black boxes"** - hard to justify, audit, or trust
 - Financial domains (loan approval, fraud detection, risk scoring) are highly regulated
 - Regulations like **GDPR**, **EU AI Act**, and **Basel III** explicitly require model explainability
 - XAI is one of the most critical barriers to responsible AI deployment today
@@ -37,7 +37,7 @@ As black-box ML models (like XGBoost, DNNs) increasingly power high-stakes finan
 
 ## 🗃️ Dataset
 
-**[Statlog (German Credit Data)](https://archive.ics.uci.edu/dataset/144/)** — UCI ML Repository
+**[Statlog (German Credit Data)](https://archive.ics.uci.edu/dataset/144/)** - UCI ML Repository
 
 | Property | Details |
 |----------|---------|
@@ -82,7 +82,7 @@ As black-box ML models (like XGBoost, DNNs) increasingly power high-stakes finan
 - `Loan Duration` strongly increases default risk
 - Low `Checking Account Balance` correlates with bad credit prediction
 
-### PDP — Partial Dependence Plots
+### PDP - Partial Dependence Plots
 - Shows the **average effect** of a feature on the predicted outcome
 - Marginalizes over all other features
 - Used for **global sensitivity analysis**
@@ -93,7 +93,7 @@ As black-box ML models (like XGBoost, DNNs) increasingly power high-stakes finan
 
 ---
 
-## 📊 SHAP vs PDP — Complementary Approaches
+## 📊 SHAP vs PDP - Complementary Approaches
 
 | | SHAP | PDP |
 |---|------|-----|
